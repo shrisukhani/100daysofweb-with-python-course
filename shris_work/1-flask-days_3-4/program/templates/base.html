@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- load MUI -->
+        <link href="//cdn.muicss.com/mui-0.9.39/css/mui.min.css" rel="stylesheet" type="text/css" />
+        <script src="//cdn.muicss.com/mui-0.9.39/js/mui.min.js"></script>
+        <title>This is my site</title>
+    </head>
+    <body>
+        <div class="mui-panel">
+            <button class="mui-btn mui-btn--raised"><a href="/index">Hello</a></button>
+            <button class="mui-btn mui-btn--raised"><a href="/bombay">Bombay</a></button>
+            <button class="mui-btn mui-btn--raised"><a href="/college">College</a></button>
+            <button class="mui-btn mui-btn--raised"><a href="/work">Work</a></button>
+        </div>
+        {% block content %}{% endblock %}
+    </body>
+</html>
